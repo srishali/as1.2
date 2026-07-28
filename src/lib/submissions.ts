@@ -38,18 +38,11 @@ export type SubmissionResult = {
   offline?: boolean;
   status?: number;
   error?: string;
-
-  /*
-   * Returned when phone + DOB match an existing visitor.
-   * No ID or private details are returned until reissue is requested.
-   */
   alreadyRegistered?: boolean;
-
-  /*
-   * Returned only after action: "reissue" is verified.
-   */
   pass?: VisitorPassRecord;
   reissued?: number;
+  notFound?: boolean;      // phone not registered
+  dobMismatch?: boolean;   // phone found, DOB wrong
 };
 
 type ApiResponse = {
@@ -60,6 +53,8 @@ type ApiResponse = {
   alreadyRegistered?: boolean;
   pass?: VisitorPassRecord;
   reissued?: number;
+  notFound?: boolean;
+  dobMismatch?: boolean;
 };
 
 export async function submitRegistration(
