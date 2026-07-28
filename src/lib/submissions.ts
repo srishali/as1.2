@@ -16,11 +16,6 @@ export type RegistrationPayload = {
   action?: "register" | "reissue" | "send_pass";
   id?: string;
   personal: Record<string, string>;
-
-  /*
-   * Retained only to avoid breaking other existing form flows.
-   * Visitor registration no longer sends these values.
-   */
   company?: Record<string, string>;
   interest?: string;
   message?: string;
@@ -41,8 +36,8 @@ export type SubmissionResult = {
   alreadyRegistered?: boolean;
   pass?: VisitorPassRecord;
   reissued?: number;
-  notFound?: boolean;      // phone not registered
-  dobMismatch?: boolean;   // phone found, DOB wrong
+  notFound?: boolean;     // phone not registered at all
+  dobMismatch?: boolean;  // phone found but DOB wrong
 };
 
 type ApiResponse = {
@@ -65,25 +60,14 @@ export async function submitRegistration(
 
   if (!url) {
     console.info("[Registration backend disabled]", payload);
-
-    /*
-     * Kept compatible with your old helper.
-     * VisitorForm checks for a real backend-issued ID,
-     * so it will not issue an unrecorded local pass.
-     */
-    return {
-      ok: true,
-      offline: true,
-    };
+    return { ok: true, offline: true };
   }
 
   try {
     const res = await fetch(url, {
       method: "POST",
       redirect: "follow",
-      headers: {
-        "Content-Type": "text/plain;charset=utf-8",
-      },
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
       body: JSON.stringify(payload),
     });
 
@@ -108,14 +92,11 @@ export async function submitRegistration(
       alreadyRegistered: data.alreadyRegistered,
       pass: data.pass,
       reissued: data.reissued,
+      notFound: data.notFound,
+      dobMismatch: data.dobMismatch,
     };
-
   } catch (err) {
     console.error("[Submission Failed]", err);
-
-    return {
-      ok: false,
-      error: String(err),
-    };
+    return { ok: false, error: String(err) };
   }
 }
