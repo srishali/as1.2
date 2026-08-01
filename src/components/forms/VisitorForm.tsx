@@ -2,7 +2,6 @@ import { useCallback, useState } from "react";
 import {
   AlertTriangle,
   CheckCircle2,
-  Download,
   FileImage,
   FileText,
   Loader2,
@@ -72,7 +71,7 @@ type Step =
   | "form"              // Step 1: Registration Form
   | "generating"        // Loading indicator
   | "alreadyRegistered" // Step 4: Phone exists warning + Verify Button
-  | "verifyDob"         // Step 5: Only DOB Input Field
+  | "verifyDob"         // Step 5: Blank DOB Input Field
   | "verifyFailed"      // Step 6: Verification Failed options
   | "done";             // Step 3 & 5: Pass generated/download screen
 
@@ -102,7 +101,11 @@ export function VisitorForm() {
   const [location, setLocation] = useState<LocationState>(LOCATION_INIT);
   const [lTouched, setLTouched] = useState<LocationTouched>(LOCATION_TOUCHED_INIT);
 
+  // Stored phone for verification step
+  const [savedPhone, setSavedPhone] = useState("");
+  // Blank DOB input for verification
   const [verifyDobValue, setVerifyDobValue] = useState("");
+
   const [step, setStep] = useState<Step>("form");
   const [passData, setPassData] = useState<PassData | null>(null);
   const [passPng, setPassPng] = useState("");
@@ -183,7 +186,7 @@ export function VisitorForm() {
     );
   }
 
-  /* ── STEP 1 & 2: SUBMIT REGISTRATION (CHECK PHONE EXISTING) ── */
+  /* ── STEP 1 & 2: SUBMIT REGISTRATION ──────────────────────── */
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -207,21 +210,25 @@ export function VisitorForm() {
         },
       });
 
-      // Step 4: Phone exists in records -> show already registered screen
-      if (result.ok && result.alreadyRegistered) {
+      // Step 4: Phone exists in records
+      if (result && result.alreadyRegistered) {
+        setSavedPhone(personal.phone);
         setStep("alreadyRegistered");
         return;
       }
 
-      if (!result.ok || !result.id) {
+      // Safe extraction of generated ID (Fix for Issue #1)
+      const generatedId = result?.id || result?.pass?.id;
+
+      if (!result || !result.ok || !generatedId) {
         throw new Error(
-          result.error || "Registration could not be completed. Please try again."
+          result?.error || "Registration could not be completed. Please try again."
         );
       }
 
-      // Step 3: Phone does not exist -> generate new pass directly
+      // Step 3: Brand new registration success -> generate and show pass
       await generateAndShowPass({
-        id: result.id,
+        id: generatedId,
         fullName: personal.fullName,
         phone: personal.phone,
         gender: personal.gender,
@@ -257,21 +264,21 @@ export function VisitorForm() {
         type: "visitor",
         action: "reissue",
         personal: {
-          phone: personal.phone,
+          phone: savedPhone || personal.phone,
           dob: verifyDobValue,
         },
       });
 
       // Step 6: DOB mismatch or verification failed
-      if (!result.ok || !result.pass) {
+      if (!result || !result.ok || !result.pass) {
         setReissueError(
-          result.error || "Your details are not verified."
+          result?.error || "Your details are not verified."
         );
         setStep("verifyFailed");
         return;
       }
 
-      // Step 5 Match: Regenerate original pass
+      // Step 5 Match: Regenerate pass with original details
       const existingPass: VisitorPassRecord = result.pass;
 
       await generateAndShowPass({
@@ -291,7 +298,7 @@ export function VisitorForm() {
       setReissueError(
         err instanceof Error
           ? err.message
-          : "Verification failed. Please try again."
+          : "Your details are not verified."
       );
       setStep("verifyFailed");
     } finally {
@@ -299,7 +306,7 @@ export function VisitorForm() {
     }
   }
 
-  /* Reset back to Step 1 */
+  /* Step 8: Reset complete form back to Step 1 */
   function resetToStep1() {
     setPersonal(PERSONAL_INIT);
     setPTouched(PERSONAL_TOUCHED_INIT);
@@ -307,6 +314,7 @@ export function VisitorForm() {
     setLocation(LOCATION_INIT);
     setLTouched(LOCATION_TOUCHED_INIT);
 
+    setSavedPhone("");
     setVerifyDobValue("");
     setPassData(null);
     setPassPng("");
@@ -340,7 +348,8 @@ export function VisitorForm() {
             size="lg"
             className="mt-6 w-full max-w-sm shadow-lg"
             onClick={() => {
-              setVerifyDobValue(personal.dob || "");
+              // Fix for Issue #2: Clear DOB input field completely for verification
+              setVerifyDobValue("");
               setStep("verifyDob");
             }}
           >
@@ -352,7 +361,7 @@ export function VisitorForm() {
     );
   }
 
-  /* ── STEP 5: DOB VERIFICATION FIELD SCREEN ──────────────────── */
+  /* ── STEP 5: DOB VERIFICATION FIELD SCREEN (ISOLATED BLANK DOB) ── */
 
   if (step === "verifyDob") {
     return (
@@ -362,8 +371,7 @@ export function VisitorForm() {
             Verify Your Details
           </h3>
           <p className="mt-1 text-xs text-slate-500">
-            Enter your Date of Birth registered with mobile number{" "}
-            <span className="font-semibold text-slate-800">{personal.phone}</span>
+            Please enter your Date of Birth to verify and download your pass.
           </p>
 
           <div className="mt-6 text-left">
@@ -412,23 +420,18 @@ export function VisitorForm() {
             Verification Failed
           </h3>
 
-          <p className="mt-2 max-w-md text-sm text-red-700">
+          <p className="mt-2 max-w-md text-sm font-medium text-red-700">
             Your details are not verified, kindly provide the actual data while you registered or you can register with fresh phone number.
           </p>
 
-          {reissueError && (
-            <p className="mt-2 text-xs font-semibold text-red-600">
-              {reissueError}
-            </p>
-          )}
-
           <div className="mt-6 grid w-full max-w-md gap-3 sm:grid-cols-2">
-            {/* Step 7: Retry button repeats Step 5 */}
+            {/* Step 7: Retry button clears DOB input and goes back to Step 5 */}
             <Button
               variant="outline"
               size="lg"
               className="w-full bg-white shadow-sm"
               onClick={() => {
+                setVerifyDobValue("");
                 setReissueError("");
                 setStep("verifyDob");
               }}
@@ -437,7 +440,7 @@ export function VisitorForm() {
               Retry
             </Button>
 
-            {/* Step 8: Visitor Registration resets to Step 1 */}
+            {/* Step 8: Visitor Registration resets form completely to Step 1 */}
             <Button
               variant="primary"
               size="lg"
@@ -463,7 +466,7 @@ export function VisitorForm() {
 
           <h3 className="mt-3 font-display text-xl font-bold text-slate-900">
             {wasReissued
-              ? "Existing Visitor Pass Verified!"
+              ? "Visitor Pass Verified!"
               : "Registration Successful!"}
           </h3>
 
