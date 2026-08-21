@@ -65,7 +65,7 @@ export function Logo({
             light ? "text-brand-100/70" : "text-slate-400"
           )}
         >
-          8–11 Oct 2026 · India
+          2–4 Oct 2026 · India
         </span>
       </span>
     </Link>
