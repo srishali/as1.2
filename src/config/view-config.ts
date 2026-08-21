@@ -78,12 +78,12 @@ export const SECTIONS = {
   hero: {
     enabled: true,
     order: 1,
-    align: "left" as const,
-    pill: "8th Edition · 8–11 October 2026",
-    titleTop: "Bengaluru",
-    titleAccent: "Auto Expo",
+    align: "center" as const,
+    pill: "1st Edition · 2–4 October 2026",
+    titleTop: "Hyderabad's",
+    titleAccent: "Maha Auto Mela",
     year: "2026",
-    subtitle: "The Future of Mobility, Unleashed. South Asia's flagship automotive exhibition — four days where global brands, future mobility and passionate fans collide.",
+    subtitle: "The Future of Mobility, Unleashed. Worlds's flagship automotive exhibition — three days where global brands, future mobility and passionate fans collide.",
     ctaPrimary: { label: "Exhibitor Registration", to: "/exhibitors" },
     ctaSecondary: { label: "Visitor Registration", to: "/visitor-pass" },
     meta: [
