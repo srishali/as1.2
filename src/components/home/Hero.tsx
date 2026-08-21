@@ -12,7 +12,7 @@ export function Hero() {
       <div className="absolute inset-0 -z-10 bg-brand-950">
         <img
           src={H.bgImage}
-          alt="Luxury concept car on the Bengaluru Auto Expo mainstage"
+          alt="Luxury concept car on the Maha Auto Mela mainstage"
           className="h-full w-full object-cover"
           loading="eager"
         />

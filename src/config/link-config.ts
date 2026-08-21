@@ -78,7 +78,7 @@ export const EXHIBITOR_BROCHURE = {
 export const WHATSAPP_CHAT = {
   enabled:            true,
   phoneNumber:        "+918045008800",
-  prefillMessage:     "Hi! I'm interested in the Bengaluru Auto Expo 2026. Can you help me?",
+  prefillMessage:     "Hi! I'm interested in the Maha Auto Mela 2026. Can you help me?",
   autoOpenAfterSecs:  4,
   autoCloseAfterSecs: 10,
 };

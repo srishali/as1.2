@@ -1,6 +1,6 @@
-# Bengaluru Auto Expo 2026 — Official Event Website
+# Maha Auto Mela 2026 — Official Event Website
 
-A 100% responsive, multi-page marketing website for **Bengaluru Auto Expo 2026**
+A 100% responsive, multi-page marketing website for **Maha Auto Mela 2026**
 (8–11 October 2026 · Bangalore International Exhibition Centre, Bengaluru, India).
 
 Built with **React 19 + Vite + Tailwind CSS v4 + React Router**, with smooth
@@ -104,7 +104,7 @@ as `/media/<folder>/<file>` in the sheet's image columns — see
    ```bash
    git init
    git add .
-   git commit -m "Initial commit: Bengaluru Auto Expo 2026 website"
+   git commit -m "Initial commit: Maha Auto Mela 2026 website"
    git branch -M main
    git remote add origin https://github.com/<your-username>/<your-repo>.git
    git push -u origin main
@@ -135,4 +135,4 @@ as `/media/<folder>/<file>` in the sheet's image columns — see
 
 ---
 
-© Bengaluru Auto Expo 2026. Crafted for the future of mobility.
+© Maha Auto Mela 2026. Crafted for the future of mobility.

@@ -47,7 +47,7 @@ export function Logo({
     <Link
       to="/"
       className={cn("group flex items-center gap-3", className)}
-      aria-label="Bengaluru Auto Expo 2026 — Home"
+      aria-label="Maha Auto Mela 2026 — Home"
     >
       <LogoMark className="transition-transform duration-300 group-hover:scale-105" />
       <span className="flex flex-col leading-none">

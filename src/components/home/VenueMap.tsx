@@ -95,7 +95,7 @@ export function VenueMap() {
           <Reveal delay={0.1}>
             <div className="h-full min-h-[420px] overflow-hidden rounded-3xl border border-slate-200 shadow-xl shadow-brand-900/10">
               <iframe
-                title="Map to Bengaluru Auto Expo 2026 venue"
+                title="Map to Maha Auto Mela 2026 venue"
                 src={S.mapSrc}
                 className="h-full min-h-[420px] w-full"
                 style={{ border: 0 }}

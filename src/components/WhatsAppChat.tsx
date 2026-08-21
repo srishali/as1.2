@@ -49,7 +49,7 @@ export function WhatsAppChat() {
 
   const whatsappNumber = EVENT.whatsapp.replace(/\+/g, "");
   const message = encodeURIComponent(
-    "Hi! I'm interested in the Bengaluru Auto Expo 2026. Can you help me?"
+    "Hi! I'm interested in the Maha Auto Mela 2026. Can you help me?"
   );
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
 

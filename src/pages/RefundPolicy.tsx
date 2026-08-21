@@ -8,9 +8,9 @@ const refund: LegalPage = {
     title: "Transparent, fair ",
     accent: "refund policy",
     subtitle:
-      "We want you to feel confident when registering for Bengaluru Auto Expo. Here is exactly how cancellations and refunds work.",
+      "We want you to feel confident when registering for Maha Auto Mela. Here is exactly how cancellations and refunds work.",
   },
-  intro: "At Bengaluru Auto Expo, we aim to make every transaction simple and fair. This Refund Policy explains the conditions under which refunds, credits, or transfers may be offered for Visitor Passes, Exhibitor Booths, Sponsor Packages, and other services purchased through our official website or authorised partners.",
+  intro: "At Maha Auto Mela, we aim to make every transaction simple and fair. This Refund Policy explains the conditions under which refunds, credits, or transfers may be offered for Visitor Passes, Exhibitor Booths, Sponsor Packages, and other services purchased through our official website or authorised partners.",
   sections: [
     {
       heading: "1. Visitor Passes",

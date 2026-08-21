@@ -307,7 +307,7 @@ export const FALLBACK_WHY_EXHIBIT = {
    ────────────────────────────────────────────────────────────── */
 
 export const FALLBACK_FAQS_RAW = [
-  { enabled: true,  q: "When and where is the expo held?", a: "Bengaluru Auto Expo 2026 runs from 8–11 October 2026 at the Bangalore International Exhibition Centre (BIEC), Bengaluru, India. Doors open daily from 10:00 AM to 7:00 PM, with business hours from 9:00 AM." },
+  { enabled: true,  q: "When and where is the expo held?", a: "Maha Auto Mela 2026 runs from 8–11 October 2026 at the Bangalore International Exhibition Centre (BIEC), Bengaluru, India. Doors open daily from 10:00 AM to 7:00 PM, with business hours from 9:00 AM." },
   { enabled: true,  q: "How do I register as an exhibitor?", a: "Submit the exhibitor enquiry form on the Exhibitors page or Contact page. Our sales team will share availability, floor plans and a formal proposal within one business day." },
   { enabled: true,  q: "Is there an entry fee for visitors?", a: "Yes. Visitor passes are available online at an early-bird rate, with complimentary entry for accredited media and pre-registered trade delegates on business day. Children under 8 enter free." },
   { enabled: true,  q: "Are international visitors and exhibitors supported?", a: "Absolutely. We provide visa invitation letters, on-ground hospitality desks, translation services and dedicated international buyer lounges for our global participants." },

@@ -14,7 +14,7 @@ export function exhibitorWelcomeEmail(data: {
   state: string;
 }) {
   const { id, fullName, companyName, category, city, state } = data;
-  const eventName = "Bengaluru Auto Expo 2026";
+  const eventName = "Maha Auto Mela 2026";
   const eventDates = "8–11 October 2026";
   const eventVenue = "Bangalore International Exhibition Centre (BIEC), Bengaluru";
   const contactEmail = "sales@bengaluruautoexpo.in";
@@ -37,7 +37,7 @@ export function exhibitorWelcomeEmail(data: {
       <tr>
         <td style="background:linear-gradient(135deg,#270585 0%,#850527 100%);padding:40px 40px 32px;text-align:center;">
           <p style="margin:0 0 8px;font-size:11px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:rgba(255,255,255,0.7);">8th Edition</p>
-          <h1 style="margin:0;font-size:28px;font-weight:900;color:#ffffff;letter-spacing:-0.5px;">Bengaluru Auto Expo 2026</h1>
+          <h1 style="margin:0;font-size:28px;font-weight:900;color:#ffffff;letter-spacing:-0.5px;">Maha Auto Mela 2026</h1>
           <p style="margin:8px 0 0;font-size:13px;color:rgba(255,255,255,0.8);">${eventDates} &nbsp;·&nbsp; ${eventVenue}</p>
           <div style="margin:20px auto 0;display:inline-block;background:rgba(255,255,255,0.15);border-radius:100px;padding:6px 20px;">
             <span style="font-size:12px;font-weight:700;color:#fff;letter-spacing:0.15em;text-transform:uppercase;">Exhibitor Registration Confirmed</span>
@@ -120,7 +120,7 @@ export function exhibitorWelcomeEmail(data: {
       <!-- Footer -->
       <tr>
         <td style="background:#1e1b4b;padding:24px 40px;text-align:center;">
-          <p style="margin:0 0 4px;font-size:13px;font-weight:700;color:#fff;">Bengaluru Auto Expo 2026</p>
+          <p style="margin:0 0 4px;font-size:13px;font-weight:700;color:#fff;">Maha Auto Mela 2026</p>
           <p style="margin:0;font-size:11px;color:rgba(255,255,255,0.5);">© ${year} ${eventName}. All rights reserved.</p>
           <p style="margin:8px 0 0;font-size:10px;color:rgba(255,255,255,0.35);">
             This email was sent to confirm your exhibitor registration. Please do not reply to this email.<br/>

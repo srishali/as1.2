@@ -110,7 +110,7 @@ export function ContactMapBlock() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="overflow-hidden rounded-3xl border border-slate-200 shadow-xl shadow-brand-900/10">
           <iframe
-            title="Map to Bengaluru Auto Expo 2026 venue"
+            title="Map to Maha Auto Mela 2026 venue"
             src={MAP.mapSrc}
             className="h-[400px] w-full"
             style={{ border: 0 }}

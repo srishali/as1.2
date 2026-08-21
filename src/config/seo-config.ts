@@ -18,14 +18,14 @@
 
 export const SEO_GLOBAL = {
   enabled: true,
-  siteName: "Bengaluru Auto Expo 2026",
-  titleTemplate: "%s | Bengaluru Auto Expo 2026",
-  defaultTitle: "Bengaluru Auto Expo 2026 | 8–11 October · BIEC, Bengaluru",
+  siteName: "Maha Auto Mela 2026",
+  titleTemplate: "%s | Maha Auto Mela 2026",
+  defaultTitle: "Maha Auto Mela 2026 | 8–11 October · BIEC, Bengaluru",
   defaultDescription:
-    "Bengaluru Auto Expo 2026 — South Asia's flagship automotive exhibition. 8–11 October 2026 at Bangalore International Exhibition Centre (BIEC). Unveiling future EVs, concepts, launches and mobility innovations.",
+    "Maha Auto Mela 2026 — South Asia's flagship automotive exhibition. 8–11 October 2026 at Bangalore International Exhibition Centre (BIEC). Unveiling future EVs, concepts, launches and mobility innovations.",
   defaultKeywords:
     "Auto Expo 2026, Bengaluru Auto Show, BIEC Bangalore, Electric Vehicles India, EV Expo 2026, Automotive Exhibition India, Concept Cars Unveiling, Future Mobility Summit, Car Launches 2026",
-  author: "Bengaluru Auto Expo Organising Committee",
+  author: "Maha Auto Mela Organising Committee",
   publisher: "D2FM",
   themeColor: "#270585",
   faviconUrl: "/favicon.ico",
@@ -45,7 +45,7 @@ export const OPEN_GRAPH = {
   defaultImage: "https://bengaluruautoexpo.in/images/hero.jpg",
   imageWidth: 1200,
   imageHeight: 630,
-  imageAlt: "Bengaluru Auto Expo 2026 Flagship Showcase at BIEC",
+  imageAlt: "Maha Auto Mela 2026 Flagship Showcase at BIEC",
 };
 
 /* ──────────────────────────────────────────────────────────────
@@ -75,25 +75,25 @@ export interface PageSeoConfig {
 
 export const PAGE_SEO: Record<string, PageSeoConfig> = {
   home: {
-    title: "Bengaluru Auto Expo 2026 | 8–11 October · BIEC, Bengaluru",
+    title: "Maha Auto Mela 2026 | 8–11 October · BIEC, Bengaluru",
     description:
       "Witness South Asia's premier automotive event. 500+ exhibitors, 50+ global launches, EV zone, vintage pavilion and live drift arena at BIEC, Bengaluru.",
     keywords:
-      "Bengaluru Auto Expo 2026, Auto Expo India, BIEC Exhibition, EV Showcase, Car Launch 2026, Test Drive Track, B2B Auto Summit",
+      "Maha Auto Mela 2026, Auto Expo India, BIEC Exhibition, EV Showcase, Car Launch 2026, Test Drive Track, B2B Auto Summit",
     path: "/",
     ogImage: "https://bengaluruautoexpo.in/images/hero.jpg",
   },
   about: {
-    title: "About Us | Bengaluru Auto Expo 2026",
+    title: "About Us | Maha Auto Mela 2026",
     description:
-      "Discover the story behind 8 editions of Bengaluru Auto Expo. Our mission, vision, 4-day itinerary, and supporting government & industry partners.",
+      "Discover the story behind 8 editions of Maha Auto Mela. Our mission, vision, 4-day itinerary, and supporting government & industry partners.",
     keywords:
       "About Auto Expo, Bengaluru Automobile History, BIEC Event Venue, Automotive Leaders India, EV Startups Bengaluru",
     path: "/about",
     ogImage: "https://bengaluruautoexpo.in/images/expo-floor.jpg",
   },
   exhibitors: {
-    title: "Exhibit With Us | Stall Registration — Bengaluru Auto Expo 2026",
+    title: "Exhibit With Us | Stall Registration — Maha Auto Mela 2026",
     description:
       "Reserve your booth at South Asia's largest automotive showcase. Shell scheme and premium spaces available across 80,000+ sq.m. at BIEC.",
     keywords:
@@ -102,14 +102,14 @@ export const PAGE_SEO: Record<string, PageSeoConfig> = {
     ogImage: "https://bengaluruautoexpo.in/images/ev-showcase.jpg",
   },
   floorPlan: {
-    title: "Interactive Floor Plan & Booth Availability | Bengaluru Auto Expo 2026",
-    description: "Explore the interactive Bengaluru Auto Expo 2026 floor plan, compare booth sizes and availability, and register your interest directly with the exhibitor team.",
-    keywords: "Auto Expo Floor Plan, BIEC Booth Availability, Exhibition Stall Booking, Bengaluru Auto Expo Booths",
+    title: "Interactive Floor Plan & Booth Availability | Maha Auto Mela 2026",
+    description: "Explore the interactive Maha Auto Mela 2026 floor plan, compare booth sizes and availability, and register your interest directly with the exhibitor team.",
+    keywords: "Auto Expo Floor Plan, BIEC Booth Availability, Exhibition Stall Booking, Maha Auto Mela Booths",
     path: "/floor-plan",
     ogImage: "https://bengaluruautoexpo.in/images/expo-floor.jpg",
   },
   opportunities: {
-    title: "Partnership & Sponsorship Opportunities | Bengaluru Auto Expo 2026",
+    title: "Partnership & Sponsorship Opportunities | Maha Auto Mela 2026",
     description:
       "Elevate your brand at India's leading automotive event. Title, Platinum, Gold, and Silver sponsorship packages available.",
     keywords:
@@ -118,7 +118,7 @@ export const PAGE_SEO: Record<string, PageSeoConfig> = {
     ogImage: "https://bengaluruautoexpo.in/images/future-mobility.jpg",
   },
   contact: {
-    title: "Contact Us & Directions | Bengaluru Auto Expo 2026",
+    title: "Contact Us & Directions | Maha Auto Mela 2026",
     description:
       "Get in touch with the organiser team. Venue directions to BIEC Tumakuru Road, enquiry form, phone numbers, and support email.",
     keywords:
@@ -127,7 +127,7 @@ export const PAGE_SEO: Record<string, PageSeoConfig> = {
     ogImage: "https://bengaluruautoexpo.in/images/venue.jpg",
   },
   visitorPass: {
-    title: "Get Free Visitor Pass | Bengaluru Auto Expo 2026",
+    title: "Get Free Visitor Pass | Maha Auto Mela 2026",
     description:
       "Register online to generate your official Visitor Pass with unique QR code. Instant image & PDF download.",
     keywords:
@@ -136,21 +136,21 @@ export const PAGE_SEO: Record<string, PageSeoConfig> = {
     ogImage: "https://bengaluruautoexpo.in/images/expo-floor.jpg",
   },
   privacyPolicy: {
-    title: "Privacy Policy | Bengaluru Auto Expo 2026",
+    title: "Privacy Policy | Maha Auto Mela 2026",
     description:
       "Read our Privacy Policy explaining how we collect, store, and protect visitor and exhibitor information.",
     keywords: "Privacy Policy, Data Protection, User Rights, Cookies Policy",
     path: "/privacy-policy",
   },
   termsConditions: {
-    title: "Terms & Conditions | Bengaluru Auto Expo 2026",
+    title: "Terms & Conditions | Maha Auto Mela 2026",
     description:
-      "Official terms of service and venue entry regulations for Bengaluru Auto Expo 2026.",
+      "Official terms of service and venue entry regulations for Maha Auto Mela 2026.",
     keywords: "Terms and Conditions, Visitor Regulations, Venue Policy",
     path: "/terms-conditions",
   },
   refundPolicy: {
-    title: "Refund & Cancellation Policy | Bengaluru Auto Expo 2026",
+    title: "Refund & Cancellation Policy | Maha Auto Mela 2026",
     description:
       "Transparent refund guidelines for stall bookings, visitor passes, and sponsorship commitments.",
     keywords: "Refund Policy, Ticket Cancellation, Exhibitor Cancellation Rules",
@@ -196,7 +196,7 @@ export function generateEventJsonLd() {
     ],
     organizer: {
       "@type": "Organization",
-      name: "Bengaluru Auto Expo Committee",
+      name: "Maha Auto Mela Committee",
       url: SEO_GLOBAL.baseUrl,
       email: "info@bengaluruautoexpo.in",
       telephone: "+91-80-4500-8800",

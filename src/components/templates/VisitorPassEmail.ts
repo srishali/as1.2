@@ -9,7 +9,7 @@ export function visitorPassEmail(data: {
   passDataUrl?: string; // base64 image of the pass (optional attachment ref)
 }) {
   const { id, fullName } = data;
-  const eventName = "Bengaluru Auto Expo 2026";
+  const eventName = "Maha Auto Mela 2026";
   const eventDates = "8–11 October 2026";
   const eventVenue = "Bangalore International Exhibition Centre (BIEC), Bengaluru";
   const contactEmail = "visitors@bengaluruautoexpo.in";
@@ -96,7 +96,7 @@ export function visitorPassEmail(data: {
       <tr>
         <td style="padding:0 40px 24px;">
           <p style="margin:0;font-size:10px;color:#94a3b8;line-height:1.6;border-top:1px solid #f1f5f9;padding-top:20px;">
-            <strong>Terms & Conditions:</strong> This pass is issued by Bengaluru Auto Expo and is valid only for the registered holder. Resale or transfer is strictly prohibited. The organiser reserves the right to refuse entry. By attending, you consent to photography and video recording at the event. The organiser is not responsible for any loss or damage to personal property.
+            <strong>Terms & Conditions:</strong> This pass is issued by Maha Auto Mela and is valid only for the registered holder. Resale or transfer is strictly prohibited. The organiser reserves the right to refuse entry. By attending, you consent to photography and video recording at the event. The organiser is not responsible for any loss or damage to personal property.
           </p>
         </td>
       </tr>

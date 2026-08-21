@@ -8,9 +8,9 @@ const terms: LegalPage = {
     title: "Terms & ",
     accent: "Conditions",
     subtitle:
-      "These terms govern your use of the Bengaluru Auto Expo website, registration systems, and event services. By using our services, you agree to them.",
+      "These terms govern your use of the Maha Auto Mela website, registration systems, and event services. By using our services, you agree to them.",
   },
-  intro: "Welcome to Bengaluru Auto Expo. By accessing or using our website, mobile experience, registration systems, visitor passes, exhibitor booths, or any related service (collectively, the 'Services'), you agree to be bound by these Terms & Conditions. Please read them carefully before proceeding.",
+  intro: "Welcome to Maha Auto Mela. By accessing or using our website, mobile experience, registration systems, visitor passes, exhibitor booths, or any related service (collectively, the 'Services'), you agree to be bound by these Terms & Conditions. Please read them carefully before proceeding.",
   sections: [
     {
       heading: "1. Acceptance of Terms",
@@ -22,7 +22,7 @@ const terms: LegalPage = {
     },
     {
       heading: "3. Visitor Pass",
-      body: "Your Visitor Pass is personal, non-transferable, and must be presented at the entry gate along with a valid photo ID. The QR code on the pass is for verification purposes only and does not entitle the holder to any commercial benefits. Bengaluru Auto Expo reserves the right to refuse entry or revoke the pass for any violation of venue rules, including but not limited to disorderly conduct, possession of prohibited items, or misuse of the pass.",
+      body: "Your Visitor Pass is personal, non-transferable, and must be presented at the entry gate along with a valid photo ID. The QR code on the pass is for verification purposes only and does not entitle the holder to any commercial benefits. Maha Auto Mela reserves the right to refuse entry or revoke the pass for any violation of venue rules, including but not limited to disorderly conduct, possession of prohibited items, or misuse of the pass.",
     },
     {
       heading: "4. Exhibitor Responsibilities",
@@ -30,19 +30,19 @@ const terms: LegalPage = {
     },
     {
       heading: "5. Intellectual Property",
-      body: "All content on this website — including but not limited to text, graphics, logos, images, videos, and software — is the property of Bengaluru Auto Expo or its licensors and is protected by applicable copyright, trademark, and intellectual-property laws. You may not reproduce, distribute, modify, or create derivative works without prior written consent.",
+      body: "All content on this website — including but not limited to text, graphics, logos, images, videos, and software — is the property of Maha Auto Mela or its licensors and is protected by applicable copyright, trademark, and intellectual-property laws. You may not reproduce, distribute, modify, or create derivative works without prior written consent.",
     },
     {
       heading: "6. Code of Conduct",
-      body: "We expect all visitors, exhibitors, partners, and staff to behave professionally and respectfully. Harassment, discrimination, defamatory remarks, or any unlawful activity will not be tolerated. Bengaluru Auto Expo reserves the right to remove any individual from the venue and to take appropriate legal action.",
+      body: "We expect all visitors, exhibitors, partners, and staff to behave professionally and respectfully. Harassment, discrimination, defamatory remarks, or any unlawful activity will not be tolerated. Maha Auto Mela reserves the right to remove any individual from the venue and to take appropriate legal action.",
     },
     {
       heading: "7. Photography, Video & Media",
-      body: "By attending the event, you consent to being photographed, filmed, and recorded. Bengaluru Auto Expo may use such media for promotional, marketing, editorial, and archival purposes without compensation. If you do not wish to appear in such media, please inform the photography team at the venue.",
+      body: "By attending the event, you consent to being photographed, filmed, and recorded. Maha Auto Mela may use such media for promotional, marketing, editorial, and archival purposes without compensation. If you do not wish to appear in such media, please inform the photography team at the venue.",
     },
     {
       heading: "8. Limitation of Liability",
-      body: "Bengaluru Auto Expo, its organisers, sponsors, partners, and venue management will not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of or related to your attendance, use of the website, registration, or participation in any activity at the event, including but not limited to loss of data, personal injury, or property damage.",
+      body: "Maha Auto Mela, its organisers, sponsors, partners, and venue management will not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of or related to your attendance, use of the website, registration, or participation in any activity at the event, including but not limited to loss of data, personal injury, or property damage.",
     },
     {
       heading: "9. Force Majeure",

@@ -10,7 +10,7 @@ const privacy: LegalPage = {
     subtitle:
       "We are committed to protecting your personal information and being transparent about how we use it.",
   },
-  intro: "Bengaluru Auto Expo ('we', 'us', or 'our') operates the website bengaluruautoexpo.in and related event services. This Privacy Policy explains how we collect, use, store, share and protect your personal information when you interact with our website, register for the expo, visit our premises, or use any of our services.",
+  intro: "Maha Auto Mela ('we', 'us', or 'our') operates the website bengaluruautoexpo.in and related event services. This Privacy Policy explains how we collect, use, store, share and protect your personal information when you interact with our website, register for the expo, visit our premises, or use any of our services.",
   sections: [
     {
       heading: "1. Information We Collect",
@@ -50,7 +50,7 @@ const privacy: LegalPage = {
     },
     {
       heading: "10. Contact Us",
-      body: "For any privacy-related questions or concerns, please contact our Data Protection Officer at:\nEmail: privacy@bengaluruautoexpo.in\nPhone: +91 80 4500 8800\nAddress: Bengaluru Auto Expo, 10th Mile, Tumakuru Rd, Madavara, Bengaluru, Karnataka 562123, India.",
+      body: "For any privacy-related questions or concerns, please contact our Data Protection Officer at:\nEmail: privacy@bengaluruautoexpo.in\nPhone: +91 80 4500 8800\nAddress: Maha Auto Mela, 10th Mile, Tumakuru Rd, Madavara, Bengaluru, Karnataka 562123, India.",
     },
   ],
 };

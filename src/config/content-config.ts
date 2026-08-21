@@ -127,7 +127,7 @@ export const PAGE_HEADERS = {
     title:    "Eight editions. One unstoppable ",
     accent:   "love affair",
     suffix:   " with mobility.",
-    subtitle: "Since our first edition, Bengaluru Auto Expo has grown into South Asia's most anticipated automotive gathering — a stage where the industry's biggest ideas take their first public breath.",
+    subtitle: "Since our first edition, Maha Auto Mela has grown into South Asia's most anticipated automotive gathering — a stage where the industry's biggest ideas take their first public breath.",
   },
   exhibitors: {
     current:  "Exhibitors",
@@ -143,7 +143,7 @@ export const PAGE_HEADERS = {
     image:    "/images/future-mobility.jpg",
     title:    "Opportunities that move ",
     accent:   "business forward",
-    subtitle: "Whether you want to exhibit, sponsor, partner or simply attend, Bengaluru Auto Expo opens doors across the entire automotive value chain.",
+    subtitle: "Whether you want to exhibit, sponsor, partner or simply attend, Maha Auto Mela opens doors across the entire automotive value chain.",
   },
   contact: {
     current:  "Contact Us",
@@ -151,7 +151,7 @@ export const PAGE_HEADERS = {
     image:    "/images/venue.jpg",
     title:    "Let's start a ",
     accent:   "conversation",
-    subtitle: "Questions about exhibiting, visiting, sponsoring or partnering? Our team is ready to help you make the most of Bengaluru Auto Expo 2026.",
+    subtitle: "Questions about exhibiting, visiting, sponsoring or partnering? Our team is ready to help you make the most of Maha Auto Mela 2026.",
   },
   visitorPass: {
     current:  "Visitor Pass",
@@ -181,7 +181,7 @@ export const HOME_HEADINGS = {
     title:   "Four days that move an ",
     accent:  "entire industry",
     suffix:  " forward",
-    subtitle: "Now in its 8th edition, Bengaluru Auto Expo is South Asia's most influential gathering of automakers, suppliers, startups and enthusiasts — a stage where the future of mobility is revealed.",
+    subtitle: "Now in its 8th edition, Maha Auto Mela is South Asia's most influential gathering of automakers, suppliers, startups and enthusiasts — a stage where the future of mobility is revealed.",
   },
   highlights: {
     eyebrow: "Event Highlights",
@@ -199,7 +199,7 @@ export const HOME_HEADINGS = {
     eyebrow: "Industry Highlights",
     title:   "Plug into India's ",
     accent:  "$300B+ mobility boom",
-    subtitle: "India is the world's third-largest automobile market and among its fastest-growing EV ecosystems — and Bengaluru Auto Expo is its annual meeting point.",
+    subtitle: "India is the world's third-largest automobile market and among its fastest-growing EV ecosystems — and Maha Auto Mela is its annual meeting point.",
   },
   gallery: {
     eyebrow: "Gallery",
@@ -227,7 +227,7 @@ export const HOME_HEADINGS = {
 
 export const ABOUT_TEXTS = {
   introParagraphs: [
-    "Bengaluru Auto Expo is where the full breadth of the automotive world converges — from global OEMs and Tier-1 suppliers to electric-vehicle pioneers, mobility startups and devoted enthusiasts.",
+    "Maha Auto Mela is where the full breadth of the automotive world converges — from global OEMs and Tier-1 suppliers to electric-vehicle pioneers, mobility startups and devoted enthusiasts.",
     "Over four immersive days, we transform BIEC, Bengaluru into a living showcase of launches, technology, heritage and deal-making — designed equally for the boardroom and the showroom floor.",
     "Backed by industry associations and supported by government and global partners, we exist to drive Indian mobility forward.",
   ],
