@@ -36,7 +36,7 @@ export function exhibitorWelcomeEmail(data: {
       <!-- Header -->
       <tr>
         <td style="background:linear-gradient(135deg,#270585 0%,#850527 100%);padding:40px 40px 32px;text-align:center;">
-          <p style="margin:0 0 8px;font-size:11px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:rgba(255,255,255,0.7);">8th Edition</p>
+          <p style="margin:0 0 8px;font-size:11px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:rgba(255,255,255,0.7);">1st Edition</p>
           <h1 style="margin:0;font-size:28px;font-weight:900;color:#ffffff;letter-spacing:-0.5px;">Maha Auto Mela 2026</h1>
           <p style="margin:8px 0 0;font-size:13px;color:rgba(255,255,255,0.8);">${eventDates} &nbsp;·&nbsp; ${eventVenue}</p>
           <div style="margin:20px auto 0;display:inline-block;background:rgba(255,255,255,0.15);border-radius:100px;padding:6px 20px;">

@@ -22,7 +22,7 @@ export const SEO_GLOBAL = {
   titleTemplate: "%s | Maha Auto Mela 2026",
   defaultTitle: "Maha Auto Mela 2026 | 2–4 October · NTR Stadium, Hyderabad",
   defaultDescription:
-    "Maha Auto Mela 2026 — South Asia's flagship automotive exhibition. 2–4 October 2026 at NTR Stadium, Hyderabad (NTR Stadium, Hyderabad). Unveiling future EVs, concepts, launches and mobility innovations.",
+    "Maha Auto Mela 2026 — World's flagship automotive exhibition. 2–4 October 2026 at NTR Stadium, Hyderabad (NTR Stadium, Hyderabad). Unveiling future EVs, concepts, launches and mobility innovations.",
   defaultKeywords:
     "Maha Auto Mela 2026, NTR Stadium, Hyderabad, Electric Vehicles India, EV Expo 2026, Automotive Exhibition India, Concept Cars Unveiling, Future Mobility Summit, Car Launches 2026",
   author: "Maha Auto Mela Organising Committee",
@@ -77,7 +77,7 @@ export const PAGE_SEO: Record<string, PageSeoConfig> = {
   home: {
     title: "Maha Auto Mela 2026 | 2–4 October · NTR Stadium, Hyderabad",
     description:
-      "Witness South Asia's premier automotive event. 500+ exhibitors, 50+ global launches, EV zone, vintage pavilion and live drift arena at NTR Stadium, Hyderabad.",
+      "Witness World's premier automotive event. 500+ exhibitors, 50+ global launches, EV zone, vintage pavilion and live drift arena at NTR Stadium, Hyderabad.",
     keywords:
       "Maha Auto Mela 2026, Auto Expo India, NTR Stadium, Hyderabad Exhibition, EV Showcase, Car Launch 2026, Test Drive Track, B2B Auto Summit",
     path: "/",
@@ -95,7 +95,7 @@ export const PAGE_SEO: Record<string, PageSeoConfig> = {
   exhibitors: {
     title: "Exhibit With Us | Stall Registration — Maha Auto Mela 2026",
     description:
-      "Reserve your booth at South Asia's largest automotive showcase. Shell scheme and premium spaces available across 80,000+ sq.m. at NTR Stadium, Hyderabad.",
+      "Reserve your booth at World's largest automotive showcase. Shell scheme and premium spaces available across 80,000+ sq.m. at NTR Stadium, Hyderabad.",
     keywords:
       "Book Stall Auto Expo, Exhibitor Registration, Automobile Booth Booking, Shell Scheme Pricing, NTR Stadium, Hyderabad Stall Reservation",
     path: "/exhibitors",

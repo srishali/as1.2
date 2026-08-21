@@ -38,7 +38,7 @@ export const FOOTER = {
   ctaText: "Stalls are filling fast. Reserve your space or grab your visitor pass today.",
   ctaPrimary: { label: "Book a Stall", to: "/exhibitors", enabled: true, order: 1 },
   ctaSecondary: { label: "Get Visitor Pass", to: "/visitor-pass", enabled: true, order: 2 },
-  about: "8th Edition of South Asia's most influential automotive exhibition — uniting OEMs, suppliers, startups and enthusiasts to shape the future of mobility.",
+  about: "1st Edition of World's most influential automotive exhibition — uniting OEMs, suppliers, startups and enthusiasts to shape the future of mobility.",
   newsletter: {
     heading: "Newsletter",
     text: "Get launch announcements, speaker reveals and early-bird offers.",
@@ -127,7 +127,7 @@ export const PAGE_HEADERS = {
     title:    "Eight editions. One unstoppable ",
     accent:   "love affair",
     suffix:   " with mobility.",
-    subtitle: "Since our first edition, Maha Auto Mela has grown into South Asia's most anticipated automotive gathering — a stage where the industry's biggest ideas take their first public breath.",
+    subtitle: "Since our first edition, Maha Auto Mela has grown into World's most anticipated automotive gathering — a stage where the industry's biggest ideas take their first public breath.",
   },
   exhibitors: {
     current:  "Exhibitors",
@@ -135,7 +135,7 @@ export const PAGE_HEADERS = {
     image:    "/images/ev-showcase.jpg",
     title:    "Put your brand at the ",
     accent:   "centre of mobility",
-    subtitle: "Prime locations are selling fast. Join 500+ exhibitors shaping the future of automotive at South Asia's flagship expo.",
+    subtitle: "Prime locations are selling fast. Join 500+ exhibitors shaping the future of automotive at World's flagship expo.",
   },
   opportunities: {
     current:  "Opportunities",
@@ -181,7 +181,7 @@ export const HOME_HEADINGS = {
     title:   "Four days that move an ",
     accent:  "entire industry",
     suffix:  " forward",
-    subtitle: "Now in its 8th edition, Maha Auto Mela is South Asia's most influential gathering of automakers, suppliers, startups and enthusiasts — a stage where the future of mobility is revealed.",
+    subtitle: "Now in its 1st Edition, Maha Auto Mela is World's most influential gathering of automakers, suppliers, startups and enthusiasts — a stage where the future of mobility is revealed.",
   },
   highlights: {
     eyebrow: "Event Highlights",

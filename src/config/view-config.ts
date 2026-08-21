@@ -255,7 +255,7 @@ export const SECTIONS = {
     ],
     banner: {
       title: "Become a Sponsor or Partner",
-      text: "Put your brand at the centre of South Asia's mobility conversation.",
+      text: "Put your brand at the centre of World's mobility conversation.",
       button: { label: "Partner With Us", to: "/contact" },
     },
   },
@@ -324,7 +324,7 @@ export const SECTIONS = {
     order: 2,
     align: "center" as const,
     items: [
-      { icon: Store, title: "Our Mission", desc: "To be South Asia's definitive platform where automakers, suppliers, startups and customers connect, collaborate and catalyse the future of mobility." },
+      { icon: Store, title: "Our Mission", desc: "To be World's definitive platform where automakers, suppliers, startups and customers connect, collaborate and catalyse the future of mobility." },
       { icon: Eye, title: "Our Vision", desc: "A cleaner, smarter, more connected world on wheels — and a thriving Indian industry leading it on the global stage." },
       { icon: HeartHandshake, title: "Our Promise", desc: "A meticulously curated, world-class experience for exhibitors, delegates and visitors — every single edition." },
     ],
@@ -341,10 +341,10 @@ export const SECTIONS = {
       light: true,
     } as HeadingConfig,
     items: [
-      { value: "8", label: "Editions Hosted" },
+      { value: "1", label: "Editions Hosted" },
       { value: "1.2M+", label: "Lifetime Visitors" },
-      { value: "60+", label: "Countries Reached" },
-      { value: "5,000+", label: "Brands Showcased" },
+      { value: "50+", label: "Countries Reached" },
+      { value: "500+", label: "Brands Showcased" },
     ],
   },
 
@@ -353,7 +353,7 @@ export const SECTIONS = {
     order: 4,
     align: "center" as const,
     heading: {
-      eyebrow: "4-Day Journey",
+      eyebrow: "3-Day Journey",
       title: "What unfolds across ",
       accent: "four epic days",
       subtitle: "Each day is themed for a different audience — from trade and innovation to public celebration.",
@@ -672,7 +672,7 @@ export const PAGES: Record<
       title: "Eight editions. One unstoppable ",
       accent: "love affair",
       suffix: " with mobility.",
-      subtitle: "Since our first edition, Maha Auto Mela has grown into South Asia's most anticipated automotive gathering — a stage where the industry's biggest ideas take their first public breath.",
+      subtitle: "Since our first edition, Maha Auto Mela has grown into World's most anticipated automotive gathering — a stage where the industry's biggest ideas take their first public breath.",
     },
     sections: ["aboutIntro", "pillars", "numbers", "timelineSection", "WhyHyderabad", "partnersSection", "ctaBand"],
   },
@@ -683,7 +683,7 @@ export const PAGES: Record<
       image: "/images/ev-showcase.jpg",
       title: "Put your brand at the ",
       accent: "centre of mobility",
-      subtitle: "Prime locations are selling fast. Join 500+ exhibitors shaping the future of automotive at South Asia's flagship expo.",
+      subtitle: "Prime locations are selling fast. Join 500+ exhibitors shaping the future of automotive at World's flagship expo.",
     },
     sections: ["benefits", "plansSection", "featured", "howTo", "exhibitForm", "ctaBand"],
   },
