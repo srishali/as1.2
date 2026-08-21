@@ -548,7 +548,7 @@ export const SECTIONS = {
     align: "center" as const,
     items: [
       { icon: Mail, label: "Email Us", value: "info@mahaautomela.com", href: "mailto:info@mahaautomela.com" },
-      { icon: Phone, label: "Call Us", value: "+91 80 4500 8800", href: "tel:+918045008800" },
+      { icon: Phone, label: "Call Us", value: "+91 77 99 270 585", href: "tel:+917799270585" },
       { icon: MapPin, label: "Visit Us", value: "NTR Stadium, Hyderabad", href: "https://maps.google.com/?q=Bangalore+International+Exhibition+Centre+BIEC" },
       { icon: Clock, label: "Expo Hours", value: "10 AM – 7 PM Daily", href: "" },
     ],

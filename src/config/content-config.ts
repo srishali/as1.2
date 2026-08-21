@@ -303,7 +303,7 @@ export const WHATSAPP_TEXTS = {
 
 export const LEGAL_CONTACT = {
   email: "legal@mahaautomela.com",
-  phone: "+91 80 4500 8800",
+  phone: "+91 77 99 270 585",
   address: "10th Mile, Tumakuru Rd, Madavara, Bengaluru, Karnataka 562123, India",
 };
 

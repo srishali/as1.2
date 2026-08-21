@@ -18,7 +18,7 @@ export function exhibitorWelcomeEmail(data: {
   const eventDates = "2–4 October 2026";
   const eventVenue = "Bangalore International Exhibition Centre (BIEC), Bengaluru";
   const contactEmail = "sales@mahaautomela.com";
-  const contactPhone = "+91 80 4500 8800";
+  const contactPhone = "+91 77 99 270 585";
   const year = new Date().getFullYear();
 
   return `<!DOCTYPE html>

@@ -50,7 +50,7 @@ const refund: LegalPage = {
     },
     {
       heading: "10. Contact",
-      body: "For any refund-related queries, please write to refunds@mahaautomela.com or call +91 80 4500 8800 (Mon–Fri, 10:00 AM – 6:00 PM IST).",
+      body: "For any refund-related queries, please write to refunds@mahaautomela.com or call +91 77 99 270 585 (Mon–Fri, 10:00 AM – 6:00 PM IST).",
     },
   ],
 };
