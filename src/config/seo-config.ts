@@ -24,7 +24,7 @@ export const SEO_GLOBAL = {
   defaultDescription:
     "Maha Auto Mela 2026 — South Asia's flagship automotive exhibition. 2–4 October 2026 at NTR Stadium, Hyderabad (NTR Stadium, Hyderabad). Unveiling future EVs, concepts, launches and mobility innovations.",
   defaultKeywords:
-    "Auto Expo 2026, Bengaluru Auto Show, NTR Stadium, Hyderabad Bangalore, Electric Vehicles India, EV Expo 2026, Automotive Exhibition India, Concept Cars Unveiling, Future Mobility Summit, Car Launches 2026",
+    "Maha Auto Mela 2026, NTR Stadium, Hyderabad, Electric Vehicles India, EV Expo 2026, Automotive Exhibition India, Concept Cars Unveiling, Future Mobility Summit, Car Launches 2026",
   author: "Maha Auto Mela Organising Committee",
   publisher: "D2FM",
   themeColor: "#270585",
@@ -122,7 +122,7 @@ export const PAGE_SEO: Record<string, PageSeoConfig> = {
     description:
       "Get in touch with the organiser team. Venue directions to NTR Stadium, Hyderabad Tumakuru Road, enquiry form, phone numbers, and support email.",
     keywords:
-      "NTR Stadium, Hyderabad Address, Auto Expo Contact Number, Bangalore Expo Venue Map, Exhibitor Helpdesk, Visitor Query Email",
+      "NTR Stadium, Hyderabad Address, Auto Expo Contact Number, Maha Auto Mela Venue Map, Exhibitor Helpdesk, Visitor Query Email",
     path: "/contact",
     ogImage: "https://mahaautomela.com/images/venue.jpg",
   },
