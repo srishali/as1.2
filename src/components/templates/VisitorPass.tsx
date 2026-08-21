@@ -19,7 +19,7 @@ export interface PassData {
 const PASS_WIDTH = 288;
 const PASS_HEIGHT = 384;
 
-const WEBSITE = EVENT.website || "bengaluruautoexpo.in";
+const WEBSITE = EVENT.website || "mahaautomela.com";
 
 export const VisitorPassCard = forwardRef<HTMLDivElement, { data: PassData }>(
   function VisitorPassCard({ data }, ref) {

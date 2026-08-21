@@ -17,7 +17,7 @@ export function exhibitorWelcomeEmail(data: {
   const eventName = "Maha Auto Mela 2026";
   const eventDates = "8–11 October 2026";
   const eventVenue = "Bangalore International Exhibition Centre (BIEC), Bengaluru";
-  const contactEmail = "sales@bengaluruautoexpo.in";
+  const contactEmail = "sales@mahaautomela.com";
   const contactPhone = "+91 80 4500 8800";
   const year = new Date().getFullYear();
 
@@ -103,7 +103,7 @@ export function exhibitorWelcomeEmail(data: {
 
           <!-- CTA button -->
           <div style="text-align:center;margin-bottom:32px;">
-            <a href="https://bengaluruautoexpo.in/exhibitors" style="display:inline-block;background:linear-gradient(135deg,#850527,#270585);color:#fff;font-size:14px;font-weight:700;padding:14px 36px;border-radius:100px;text-decoration:none;letter-spacing:0.05em;">Visit Exhibitor Portal →</a>
+            <a href="https://mahaautomela.com/exhibitors" style="display:inline-block;background:linear-gradient(135deg,#850527,#270585);color:#fff;font-size:14px;font-weight:700;padding:14px 36px;border-radius:100px;text-decoration:none;letter-spacing:0.05em;">Visit Exhibitor Portal →</a>
           </div>
 
           <!-- Contact -->

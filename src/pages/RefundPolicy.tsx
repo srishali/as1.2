@@ -30,7 +30,7 @@ const refund: LegalPage = {
     },
     {
       heading: "5. Refund Process",
-      body: "To request a refund, please email refunds@bengaluruautoexpo.in with the following information:\n• Your full name and registered email/phone\n• Booking or pass ID\n• Date of purchase\n• Reason for the refund request\n• Supporting documents (if any)\n\nOur team will acknowledge your request within 2 business days and provide a resolution timeline.",
+      body: "To request a refund, please email refunds@mahaautomela.com with the following information:\n• Your full name and registered email/phone\n• Booking or pass ID\n• Date of purchase\n• Reason for the refund request\n• Supporting documents (if any)\n\nOur team will acknowledge your request within 2 business days and provide a resolution timeline.",
     },
     {
       heading: "6. Non-Refundable Items",
@@ -50,7 +50,7 @@ const refund: LegalPage = {
     },
     {
       heading: "10. Contact",
-      body: "For any refund-related queries, please write to refunds@bengaluruautoexpo.in or call +91 80 4500 8800 (Mon–Fri, 10:00 AM – 6:00 PM IST).",
+      body: "For any refund-related queries, please write to refunds@mahaautomela.com or call +91 80 4500 8800 (Mon–Fri, 10:00 AM – 6:00 PM IST).",
     },
   ],
 };

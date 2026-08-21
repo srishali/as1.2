@@ -277,7 +277,7 @@ export const VISITOR_PASS = {
   dateText:         "8–11 October 2026",
   timeText:         "10:00 AM – 7:00 PM",
   venueText:        "BIEC, Bengaluru",
-  websiteText:      "bengaluruautoexpo.in",
+  websiteText:      "mahaautomela.com",
   termsFooter:      "This pass is non-transferable. One pass per person. Organiser reserves the right to refuse entry without notice. By attending, you consent to being photographed or filmed.",
   downloadImageBtn: "Download as Image",
   downloadPdfBtn:   "Download as PDF",
@@ -302,7 +302,7 @@ export const WHATSAPP_TEXTS = {
    ────────────────────────────────────────────────────────────── */
 
 export const LEGAL_CONTACT = {
-  email: "legal@bengaluruautoexpo.in",
+  email: "legal@mahaautomela.com",
   phone: "+91 80 4500 8800",
   address: "10th Mile, Tumakuru Rd, Madavara, Bengaluru, Karnataka 562123, India",
 };

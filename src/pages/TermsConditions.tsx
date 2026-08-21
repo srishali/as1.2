@@ -62,7 +62,7 @@ const terms: LegalPage = {
     },
     {
       heading: "13. Contact",
-      body: "For questions about these Terms & Conditions, please contact us at legal@bengaluruautoexpo.in.",
+      body: "For questions about these Terms & Conditions, please contact us at legal@mahaautomela.com.",
     },
   ],
 };

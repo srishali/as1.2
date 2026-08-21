@@ -157,7 +157,7 @@ export async function renderPassToCanvasDataUrl(data: PassData): Promise<string>
   // Website
   ctx.fillStyle = "#f0d27a"; // Gold
   ctx.font = "bold 28px Sora, Arial, sans-serif";
-  ctx.fillText(EVENT.website || "bengaluruautoexpo.in", width / 2, bottomY + 245);
+  ctx.fillText(EVENT.website || "mahaautomela.com", width / 2, bottomY + 245);
 
   return canvas.toDataURL("image/png");
 }

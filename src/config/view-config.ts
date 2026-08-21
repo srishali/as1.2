@@ -154,7 +154,7 @@ export const SECTIONS = {
     title: "Have a question? Let's talk.",
     blurb: "Whether you want to exhibit, sponsor, partner or visit — our team is ready to help you make the most of Maha Auto Mela 2026.",
     details: [
-      { icon: Mail, label: "Email", value: "info@bengaluruautoexpo.in", href: "mailto:info@bengaluruautoexpo.in" },
+      { icon: Mail, label: "Email", value: "info@mahaautomela.com", href: "mailto:info@mahaautomela.com" },
       { icon: Phone, label: "Phone", value: "+91 80 4500 8800", href: "tel:+918045008800" },
       { icon: Clock, label: "Expo Hours", value: "10 AM – 7 PM Daily", href: "" },
       { icon: MapPin, label: "Venue", value: "BIEC, Bengaluru", href: "" },
@@ -547,7 +547,7 @@ export const SECTIONS = {
     order: 1,
     align: "center" as const,
     items: [
-      { icon: Mail, label: "Email Us", value: "info@bengaluruautoexpo.in", href: "mailto:info@bengaluruautoexpo.in" },
+      { icon: Mail, label: "Email Us", value: "info@mahaautomela.com", href: "mailto:info@mahaautomela.com" },
       { icon: Phone, label: "Call Us", value: "+91 80 4500 8800", href: "tel:+918045008800" },
       { icon: MapPin, label: "Visit Us", value: "BIEC, Bengaluru", href: "https://maps.google.com/?q=Bangalore+International+Exhibition+Centre+BIEC" },
       { icon: Clock, label: "Expo Hours", value: "10 AM – 7 PM Daily", href: "" },
@@ -566,10 +566,10 @@ export const SECTIONS = {
       align: "left" as const,
     } as HeadingConfig,
     departments: [
-      { name: "Exhibitor Sales", email: "sales@bengaluruautoexpo.in" },
-      { name: "Sponsorship & Partnerships", email: "partners@bengaluruautoexpo.in" },
-      { name: "Media & PR", email: "media@bengaluruautoexpo.in" },
-      { name: "Visitor Support", email: "visitors@bengaluruautoexpo.in" },
+      { name: "Exhibitor Sales", email: "sales@mahaautomela.com" },
+      { name: "Sponsorship & Partnerships", email: "partners@mahaautomela.com" },
+      { name: "Media & PR", email: "media@mahaautomela.com" },
+      { name: "Visitor Support", email: "visitors@mahaautomela.com" },
     ],
   },
 

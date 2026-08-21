@@ -67,10 +67,10 @@ export function LegalPageView({ page }: { page: LegalPage }) {
             <p>
               For any questions about this page, please write to us at{" "}
               <a
-                href="mailto:legal@bengaluruautoexpo.in"
+                href="mailto:legal@mahaautomela.com"
                 className="font-semibold text-brand-700 hover:underline"
               >
-                legal@bengaluruautoexpo.in
+                legal@mahaautomela.com
               </a>
               .
             </p>
