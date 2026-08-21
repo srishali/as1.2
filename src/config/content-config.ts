@@ -211,7 +211,7 @@ export const HOME_HEADINGS = {
     eyebrow: "Venue & Access",
     title:   "One iconic venue, ",
     accent:  "easy to reach",
-    subtitle: "Held at Bengaluru's premier exhibition destination, with excellent connectivity from across the city.",
+    subtitle: "Held at Hyderabad's premier exhibition destination, with excellent connectivity from across the city.",
   },
   testimonials: {
     eyebrow: "Voices from the Industry",
@@ -304,7 +304,7 @@ export const WHATSAPP_TEXTS = {
 export const LEGAL_CONTACT = {
   email: "legal@mahaautomela.com",
   phone: "+91 77 99 270 585",
-  address: "10th Mile, Tumakuru Rd, Madavara, Bengaluru, Karnataka 562123, India",
+  address: "CF6P+RCF, Indira Park Rd, Lower Tank Bund, Kavadiguda, Hyderabad, Telangana 500080",
 };
 
 /* ──────────────────────────────────────────────────────────────

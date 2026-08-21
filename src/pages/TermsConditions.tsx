@@ -58,7 +58,7 @@ const terms: LegalPage = {
     },
     {
       heading: "12. Governing Law & Jurisdiction",
-      body: "These Terms shall be governed by and construed in accordance with the laws of India. Any disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the competent courts in Bengaluru, Karnataka, India.",
+      body: "These Terms shall be governed by and construed in accordance with the laws of India. Any disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the competent courts in Hyderabad, Telangana, India.",
     },
     {
       heading: "13. Contact",

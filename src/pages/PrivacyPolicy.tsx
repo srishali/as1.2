@@ -50,7 +50,7 @@ const privacy: LegalPage = {
     },
     {
       heading: "10. Contact Us",
-      body: "For any privacy-related questions or concerns, please contact our Data Protection Officer at:\nEmail: privacy@mahaautomela.com\nPhone: +91 77 99 270 585\nAddress: Maha Auto Mela, 10th Mile, Tumakuru Rd, Madavara, Bengaluru, Karnataka 562123, India.",
+      body: "For any privacy-related questions or concerns, please contact our Data Protection Officer at:\nEmail: privacy@mahaautomela.com\nPhone: +91 77 99 270 585\nAddress: Maha Auto Mela, CF6P+RCF, Indira Park Rd, Lower Tank Bund, Kavadiguda, Hyderabad, Telangana 500080.",
     },
   ],
 };

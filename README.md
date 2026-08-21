@@ -12,7 +12,7 @@ scroll animations (Framer Motion) and a premium brand palette
   who-should-participate, industry stats, gallery, venue + Google Map, partners,
   sponsors and testimonials.
 - **About Us** — story, mission/vision, by-the-numbers, 4-day timeline,
-  why Bengaluru.
+  why Hyderabad.
 - **Exhibitors** — benefits, booth & pricing plans, featured exhibitors,
   how-to-exhibit steps, registration form.
 - **Opportunities** — value props, sponsorship tiers, audience types, ROI.

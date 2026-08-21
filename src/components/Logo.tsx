@@ -57,7 +57,7 @@ export function Logo({
             light ? "text-white" : "text-slate-900"
           )}
         >
-          BENGALURU <span className="text-gradient">AUTO EXPO</span>
+          MAHA AUTO MELA <span className="text-gradient"></span>
         </span>
         <span
           className={cn(

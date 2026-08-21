@@ -367,7 +367,7 @@ export const SECTIONS = {
     order: 5,
     align: "center" as const,
     heading: {
-      eyebrow: "Why Bengaluru",
+      eyebrow: "Why Hyderabad",
       title: "Held in India's ",
       accent: "innovation capital",
       subtitle: "There's no better city to host the future of mobility.",

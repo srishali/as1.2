@@ -16,7 +16,7 @@ export function exhibitorWelcomeEmail(data: {
   const { id, fullName, companyName, category, city, state } = data;
   const eventName = "Maha Auto Mela 2026";
   const eventDates = "2–4 October 2026";
-  const eventVenue = "NTR Stadium, Hyderabad (NTR Stadium, Hyderabad), Bengaluru";
+  const eventVenue = "NTR Stadium, Hyderabad";
   const contactEmail = "sales@mahaautomela.com";
   const contactPhone = "+91 77 99 270 585";
   const year = new Date().getFullYear();

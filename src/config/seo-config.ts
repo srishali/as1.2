@@ -55,8 +55,8 @@ export const OPEN_GRAPH = {
 export const TWITTER_CARD = {
   enabled: true,
   cardType: "summary_large_image",
-  siteHandle: "@BengaluruAutoExpo",
-  creatorHandle: "@BengaluruAutoExpo",
+  siteHandle: "@mahaautomela",
+  creatorHandle: "@mahaautomela",
   defaultImage: "https://mahaautomela.com/images/hero.jpg",
 };
 
@@ -88,7 +88,7 @@ export const PAGE_SEO: Record<string, PageSeoConfig> = {
     description:
       "Discover the story behind 8 editions of Maha Auto Mela. Our mission, vision, 4-day itinerary, and supporting government & industry partners.",
     keywords:
-      "About Auto Expo, Bengaluru Automobile History, NTR Stadium, Hyderabad Event Venue, Automotive Leaders India, EV Startups Bengaluru",
+      "About Maha Auto Mela, Hyderabad Automobile History, NTR Stadium, Hyderabad Event Venue, Automotive Leaders India, EV Startups Hyderabad",
     path: "/about",
     ogImage: "https://mahaautomela.com/images/expo-floor.jpg",
   },
@@ -177,10 +177,10 @@ export function generateEventJsonLd() {
       name: "NTR Stadium, Hyderabad (NTR Stadium, Hyderabad)",
       address: {
         "@type": "PostalAddress",
-        streetAddress: "10th Mile, Tumakuru Road, Madavara",
-        addressLocality: "Bengaluru",
-        addressRegion: "Karnataka",
-        postalCode: "562123",
+        streetAddress: "Indira Park Rd, Lower Tank Bund, Kavadiguda",
+        addressLocality: "Hyderabad",
+        addressRegion: "Telangana",
+        postalCode: "500080",
         addressCountry: "IN",
       },
       geo: {

@@ -143,7 +143,7 @@ export function TimelineSection() {
   );
 }
 
-/** Why Bengaluru + support strip. */
+/** Why Hyderabad + support strip. */
 export function WhyHyderabad() {
   return (
     <section className="bg-slate-50 py-20 sm:py-28">
