@@ -669,7 +669,7 @@ export const PAGES: Record<
       current: "About Us",
       eyebrow: "Our Story",
       image: "/images/expo-floor.jpg",
-      title: "Eight editions. One unstoppable ",
+      title: "One unstoppable ",
       accent: "love affair",
       suffix: " with mobility.",
       subtitle: "Since our first edition, Maha Auto Mela has grown into World's most anticipated automotive gathering — a stage where the industry's biggest ideas take their first public breath.",
