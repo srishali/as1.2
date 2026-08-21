@@ -87,13 +87,14 @@ export const SECTIONS = {
     ctaPrimary: { label: "Exhibitor Registration", to: "/exhibitors" },
     ctaSecondary: { label: "Visitor Registration", to: "/visitor-pass" },
     meta: [
-      { icon: CalendarDays, value: "8–11 October 2026" },
-      { icon: MapPin, value: "BIEC, Bengaluru" },
+      { icon: CalendarDays, value: "2–4 October 2026" },
+      { icon: MapPin, value: "NTR Stadium, Hyderabad" },
     ],
     stats: [
       { value: "100+", label: "Exhibitors" },
       { value: "15K+", label: "Visitors" },
-      { value: "35+", label: "Brands" },
+      { value: "25+", label: "Brands" },
+      { value: "600+", label: "Vehicles" },
     ],
     bgImage: "/images/hero.jpg",
   },
@@ -113,9 +114,9 @@ export const SECTIONS = {
     heading: {
       eyebrow: "About the Mela",
       title: "Three days that move an ",
-      accent: "entire industry",
+      accent: "entire auto enthusiasts",
       suffix: " forward",
-      subtitle: "Now in its 1st edition, Maha Auto Mela is World's most influential gathering of automakers, suppliers, startups and enthusiasts — a stage where the future of mobility is revealed.",
+      subtitle: "Now in its 1st edition, Maha Auto Mela is World's most influential gathering of new/pre-owned dealers, automakers, suppliers, startups and enthusiasts — a stage where the future of mobility is revealed.",
       align: "left" as const,
     } as HeadingConfig,
     bullets: [
@@ -124,11 +125,11 @@ export const SECTIONS = {
       "Global Mobility Summit with 150+ speakers",
       "Pre-screened B2B buyer–seller meetings",
     ],
-    primaryBtn: { label: "Discover the Expo", to: "/about" },
+    primaryBtn: { label: "Discover the Mela", to: "/about" },
     secondaryBtn: { label: "Become an Exhibitor", to: "/exhibitors" },
     image: { src: "/images/expo-floor.jpg", alt: "Visitors exploring new cars on the Maha Auto Mela exhibition floor" },
-    stat: { value: "80,000+", label: "sq.m. of showcase space" },
-    badge: { top: "Edition", value: "8th · 2026" },
+    stat: { value: "1,50,000+", label: "sq.m. of showcase space" },
+    badge: { top: "Edition", value: "1st · 2026" },
   },
 
   highlights: {
