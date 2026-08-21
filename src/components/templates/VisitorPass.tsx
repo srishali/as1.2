@@ -71,7 +71,7 @@ export const VisitorPassCard = forwardRef<HTMLDivElement, { data: PassData }>(
             10:00 AM – 7:00 PM DAILY
           </p>
           <p className="mt-0.5 text-[8px] font-medium text-brand-100/85 uppercase">
-            BIEC, BENGALURU, INDIA
+            NTR STADIUM, HYDERABAD, INDIA
           </p>
           <p className="mt-2 text-[8px] font-semibold tracking-wide text-gold-300">
             {WEBSITE}

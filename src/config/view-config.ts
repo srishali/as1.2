@@ -155,9 +155,9 @@ export const SECTIONS = {
     blurb: "Whether you want to exhibit, sponsor, partner or visit — our team is ready to help you make the most of Maha Auto Mela 2026.",
     details: [
       { icon: Mail, label: "Email", value: "info@mahaautomela.com", href: "mailto:info@mahaautomela.com" },
-      { icon: Phone, label: "Phone", value: "+91 80 4500 8800", href: "tel:+918045008800" },
+      { icon: Phone, label: "Phone", value: "+91 77 99 270 585", href: "tel:+917799270585" },
       { icon: Clock, label: "Expo Hours", value: "10 AM – 7 PM Daily", href: "" },
-      { icon: MapPin, label: "Venue", value: "BIEC, Bengaluru", href: "" },
+      { icon: MapPin, label: "Venue", value: "NTR Stadium, Hyderabad", href: "" },
     ],
     formTitle: "Request your registration",
     formSub: "Fill in the form and we'll be in touch within one business day.",
@@ -313,7 +313,7 @@ export const SECTIONS = {
     } as HeadingConfig,
     paragraphs: [
       "Maha Auto Mela is where the full breadth of the automotive world converges — from global OEMs and Tier-1 suppliers to electric-vehicle pioneers, mobility startups and devoted enthusiasts.",
-      "Over four immersive days, we transform BIEC, Bengaluru into a living showcase of launches, technology, heritage and deal-making — designed equally for the boardroom and the showroom floor.",
+      "Over four immersive days, we transform NTR Stadium, Hyderabad into a living showcase of launches, technology, heritage and deal-making — designed equally for the boardroom and the showroom floor.",
       "Backed by industry associations and supported by government and global partners, we exist to drive Indian mobility forward.",
     ],
     image: { src: "/images/future-mobility.jpg", alt: "Futuristic concept vehicle representing the future of mobility" },
@@ -549,7 +549,7 @@ export const SECTIONS = {
     items: [
       { icon: Mail, label: "Email Us", value: "info@mahaautomela.com", href: "mailto:info@mahaautomela.com" },
       { icon: Phone, label: "Call Us", value: "+91 80 4500 8800", href: "tel:+918045008800" },
-      { icon: MapPin, label: "Visit Us", value: "BIEC, Bengaluru", href: "https://maps.google.com/?q=Bangalore+International+Exhibition+Centre+BIEC" },
+      { icon: MapPin, label: "Visit Us", value: "NTR Stadium, Hyderabad", href: "https://maps.google.com/?q=Bangalore+International+Exhibition+Centre+BIEC" },
       { icon: Clock, label: "Expo Hours", value: "10 AM – 7 PM Daily", href: "" },
     ],
   },

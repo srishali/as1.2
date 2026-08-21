@@ -228,7 +228,7 @@ export const HOME_HEADINGS = {
 export const ABOUT_TEXTS = {
   introParagraphs: [
     "Maha Auto Mela is where the full breadth of the automotive world converges — from global OEMs and Tier-1 suppliers to electric-vehicle pioneers, mobility startups and devoted enthusiasts.",
-    "Over four immersive days, we transform BIEC, Bengaluru into a living showcase of launches, technology, heritage and deal-making — designed equally for the boardroom and the showroom floor.",
+    "Over four immersive days, we transform NTR Stadium, Hyderabad into a living showcase of launches, technology, heritage and deal-making — designed equally for the boardroom and the showroom floor.",
     "Backed by industry associations and supported by government and global partners, we exist to drive Indian mobility forward.",
   ],
   whyBengaluruSupport: "Supported by leading industry associations, government bodies and global trade partners.",
@@ -276,7 +276,7 @@ export const VISITOR_PASS = {
   validText:        "Valid for all 4 days",
   dateText:         "8–11 October 2026",
   timeText:         "10:00 AM – 7:00 PM",
-  venueText:        "BIEC, Bengaluru",
+  venueText:        "NTR Stadium, Hyderabad",
   websiteText:      "mahaautomela.com",
   termsFooter:      "This pass is non-transferable. One pass per person. Organiser reserves the right to refuse entry without notice. By attending, you consent to being photographed or filmed.",
   downloadImageBtn: "Download as Image",

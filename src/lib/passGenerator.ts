@@ -149,7 +149,7 @@ export async function renderPassToCanvasDataUrl(data: PassData): Promise<string>
   // Wrap venue to 2 lines if needed
   const venueText = EVENT.venue.toUpperCase();
   if (venueText.length > 35) {
-    ctx.fillText("BIEC, BENGALURU, INDIA", width / 2, bottomY + 185);
+    ctx.fillText("NTR STADIUM, HYDERABAD, INDIA", width / 2, bottomY + 185);
   } else {
     ctx.fillText(venueText, width / 2, bottomY + 185);
   }
