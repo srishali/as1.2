@@ -20,9 +20,9 @@ export const SEO_GLOBAL = {
   enabled: true,
   siteName: "Maha Auto Mela 2026",
   titleTemplate: "%s | Maha Auto Mela 2026",
-  defaultTitle: "Maha Auto Mela 2026 | 8–11 October · NTR Stadium, Hyderabad",
+  defaultTitle: "Maha Auto Mela 2026 | 2–4 October · NTR Stadium, Hyderabad",
   defaultDescription:
-    "Maha Auto Mela 2026 — South Asia's flagship automotive exhibition. 8–11 October 2026 at Bangalore International Exhibition Centre (BIEC). Unveiling future EVs, concepts, launches and mobility innovations.",
+    "Maha Auto Mela 2026 — South Asia's flagship automotive exhibition. 2–4 October 2026 at Bangalore International Exhibition Centre (BIEC). Unveiling future EVs, concepts, launches and mobility innovations.",
   defaultKeywords:
     "Auto Expo 2026, Bengaluru Auto Show, BIEC Bangalore, Electric Vehicles India, EV Expo 2026, Automotive Exhibition India, Concept Cars Unveiling, Future Mobility Summit, Car Launches 2026",
   author: "Maha Auto Mela Organising Committee",
@@ -75,7 +75,7 @@ export interface PageSeoConfig {
 
 export const PAGE_SEO: Record<string, PageSeoConfig> = {
   home: {
-    title: "Maha Auto Mela 2026 | 8–11 October · NTR Stadium, Hyderabad",
+    title: "Maha Auto Mela 2026 | 2–4 October · NTR Stadium, Hyderabad",
     description:
       "Witness South Asia's premier automotive event. 500+ exhibitors, 50+ global launches, EV zone, vintage pavilion and live drift arena at NTR Stadium, Hyderabad.",
     keywords:

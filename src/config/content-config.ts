@@ -231,7 +231,7 @@ export const ABOUT_TEXTS = {
     "Over four immersive days, we transform NTR Stadium, Hyderabad into a living showcase of launches, technology, heritage and deal-making — designed equally for the boardroom and the showroom floor.",
     "Backed by industry associations and supported by government and global partners, we exist to drive Indian mobility forward.",
   ],
-  whyBengaluruSupport: "Supported by leading industry associations, government bodies and global trade partners.",
+  WhyHyderabadSupport: "Supported by leading industry associations, government bodies and global trade partners.",
 };
 
 /* ──────────────────────────────────────────────────────────────
@@ -274,7 +274,7 @@ export const VISITOR_PASS = {
   scanLabel:        "Scan to Verify",
   visitorBadge:     "VISITOR",
   validText:        "Valid for all 4 days",
-  dateText:         "8–11 October 2026",
+  dateText:         "2–4 October 2026",
   timeText:         "10:00 AM – 7:00 PM",
   venueText:        "NTR Stadium, Hyderabad",
   websiteText:      "mahaautomela.com",

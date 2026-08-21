@@ -9,7 +9,7 @@ const INTRO = SECTIONS.aboutIntro;
 const PILLARS = SECTIONS.pillars;
 const NUMBERS = SECTIONS.numbers;
 const TL = SECTIONS.timelineSection;
-const WHY = SECTIONS.whyBengaluru;
+const WHY = SECTIONS.WhyHyderabad;
 
 /** Who We Are — intro with image. */
 export function AboutIntro() {
@@ -144,7 +144,7 @@ export function TimelineSection() {
 }
 
 /** Why Bengaluru + support strip. */
-export function WhyBengaluru() {
+export function WhyHyderabad() {
   return (
     <section className="bg-slate-50 py-20 sm:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

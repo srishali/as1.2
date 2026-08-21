@@ -6,7 +6,7 @@ import {
   Pillars,
   NumbersBand,
   TimelineSection,
-  WhyBengaluru,
+  WhyHyderabad,
 } from "../components/about/AboutSections";
 import { PartnersSection } from "../components/PartnersSection";
 import { CtaBand } from "../components/home/CtaBand";
@@ -16,7 +16,7 @@ const REGISTRY: SectionRegistry = {
   pillars: Pillars,
   numbers: NumbersBand,
   timelineSection: TimelineSection,
-  whyBengaluru: WhyBengaluru,
+  WhyHyderabad: WhyHyderabad,
   partnersSection: PartnersSection,
   ctaBand: CtaBand,
 };

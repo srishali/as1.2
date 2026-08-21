@@ -1,7 +1,7 @@
 # Maha Auto Mela 2026 — Official Event Website
 
 A 100% responsive, multi-page marketing website for **Maha Auto Mela 2026**
-(8–11 October 2026 · Bangalore International Exhibition Centre, Bengaluru, India).
+(2–4 October 2026 · Bangalore International Exhibition Centre, Bengaluru, India).
 
 Built with **React 19 + Vite + Tailwind CSS v4 + React Router**, with smooth
 scroll animations (Framer Motion) and a premium brand palette

@@ -362,7 +362,7 @@ export const SECTIONS = {
     items: FALLBACK_TIMELINE.items,
   },
 
-  whyBengaluru: {
+  WhyHyderabad: {
     enabled: true,
     order: 5,
     align: "center" as const,
@@ -674,7 +674,7 @@ export const PAGES: Record<
       suffix: " with mobility.",
       subtitle: "Since our first edition, Maha Auto Mela has grown into South Asia's most anticipated automotive gathering — a stage where the industry's biggest ideas take their first public breath.",
     },
-    sections: ["aboutIntro", "pillars", "numbers", "timelineSection", "whyBengaluru", "partnersSection", "ctaBand"],
+    sections: ["aboutIntro", "pillars", "numbers", "timelineSection", "WhyHyderabad", "partnersSection", "ctaBand"],
   },
   exhibitors: {
     header: {
