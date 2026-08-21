@@ -16,7 +16,7 @@ export function exhibitorWelcomeEmail(data: {
   const { id, fullName, companyName, category, city, state } = data;
   const eventName = "Maha Auto Mela 2026";
   const eventDates = "2–4 October 2026";
-  const eventVenue = "Bangalore International Exhibition Centre (BIEC), Bengaluru";
+  const eventVenue = "NTR Stadium, Hyderabad (NTR Stadium, Hyderabad), Bengaluru";
   const contactEmail = "sales@mahaautomela.com";
   const contactPhone = "+91 77 99 270 585";
   const year = new Date().getFullYear();
@@ -84,7 +84,7 @@ export function exhibitorWelcomeEmail(data: {
               ["01", "Floor Plan & Stall Selection", "Our sales team will share available locations within 1 business day."],
               ["02", "Agreement & Payment", "Review and sign the exhibitor agreement; secure your stall with payment."],
               ["03", "Exhibitor Manual", "Receive the complete build guide, logistics info and badge allocation."],
-              ["04", "Show Day", `Arrive at BIEC from 7 AM on ${eventDates.split("–")[0]} October 2026 for setup.`],
+              ["04", "Show Day", `Arrive at NTR Stadium, Hyderabad from 7 AM on ${eventDates.split("–")[0]} October 2026 for setup.`],
             ]
               .map(
                 ([num, title, desc]) => `

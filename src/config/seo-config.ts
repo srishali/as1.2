@@ -22,9 +22,9 @@ export const SEO_GLOBAL = {
   titleTemplate: "%s | Maha Auto Mela 2026",
   defaultTitle: "Maha Auto Mela 2026 | 2–4 October · NTR Stadium, Hyderabad",
   defaultDescription:
-    "Maha Auto Mela 2026 — South Asia's flagship automotive exhibition. 2–4 October 2026 at Bangalore International Exhibition Centre (BIEC). Unveiling future EVs, concepts, launches and mobility innovations.",
+    "Maha Auto Mela 2026 — South Asia's flagship automotive exhibition. 2–4 October 2026 at NTR Stadium, Hyderabad (NTR Stadium, Hyderabad). Unveiling future EVs, concepts, launches and mobility innovations.",
   defaultKeywords:
-    "Auto Expo 2026, Bengaluru Auto Show, BIEC Bangalore, Electric Vehicles India, EV Expo 2026, Automotive Exhibition India, Concept Cars Unveiling, Future Mobility Summit, Car Launches 2026",
+    "Auto Expo 2026, Bengaluru Auto Show, NTR Stadium, Hyderabad Bangalore, Electric Vehicles India, EV Expo 2026, Automotive Exhibition India, Concept Cars Unveiling, Future Mobility Summit, Car Launches 2026",
   author: "Maha Auto Mela Organising Committee",
   publisher: "D2FM",
   themeColor: "#270585",
@@ -45,7 +45,7 @@ export const OPEN_GRAPH = {
   defaultImage: "https://mahaautomela.com/images/hero.jpg",
   imageWidth: 1200,
   imageHeight: 630,
-  imageAlt: "Maha Auto Mela 2026 Flagship Showcase at BIEC",
+  imageAlt: "Maha Auto Mela 2026 Flagship Showcase at NTR Stadium, Hyderabad",
 };
 
 /* ──────────────────────────────────────────────────────────────
@@ -79,7 +79,7 @@ export const PAGE_SEO: Record<string, PageSeoConfig> = {
     description:
       "Witness South Asia's premier automotive event. 500+ exhibitors, 50+ global launches, EV zone, vintage pavilion and live drift arena at NTR Stadium, Hyderabad.",
     keywords:
-      "Maha Auto Mela 2026, Auto Expo India, BIEC Exhibition, EV Showcase, Car Launch 2026, Test Drive Track, B2B Auto Summit",
+      "Maha Auto Mela 2026, Auto Expo India, NTR Stadium, Hyderabad Exhibition, EV Showcase, Car Launch 2026, Test Drive Track, B2B Auto Summit",
     path: "/",
     ogImage: "https://mahaautomela.com/images/hero.jpg",
   },
@@ -88,23 +88,23 @@ export const PAGE_SEO: Record<string, PageSeoConfig> = {
     description:
       "Discover the story behind 8 editions of Maha Auto Mela. Our mission, vision, 4-day itinerary, and supporting government & industry partners.",
     keywords:
-      "About Auto Expo, Bengaluru Automobile History, BIEC Event Venue, Automotive Leaders India, EV Startups Bengaluru",
+      "About Auto Expo, Bengaluru Automobile History, NTR Stadium, Hyderabad Event Venue, Automotive Leaders India, EV Startups Bengaluru",
     path: "/about",
     ogImage: "https://mahaautomela.com/images/expo-floor.jpg",
   },
   exhibitors: {
     title: "Exhibit With Us | Stall Registration — Maha Auto Mela 2026",
     description:
-      "Reserve your booth at South Asia's largest automotive showcase. Shell scheme and premium spaces available across 80,000+ sq.m. at BIEC.",
+      "Reserve your booth at South Asia's largest automotive showcase. Shell scheme and premium spaces available across 80,000+ sq.m. at NTR Stadium, Hyderabad.",
     keywords:
-      "Book Stall Auto Expo, Exhibitor Registration, Automobile Booth Booking, Shell Scheme Pricing, BIEC Stall Reservation",
+      "Book Stall Auto Expo, Exhibitor Registration, Automobile Booth Booking, Shell Scheme Pricing, NTR Stadium, Hyderabad Stall Reservation",
     path: "/exhibitors",
     ogImage: "https://mahaautomela.com/images/ev-showcase.jpg",
   },
   floorPlan: {
     title: "Interactive Floor Plan & Booth Availability | Maha Auto Mela 2026",
     description: "Explore the interactive Maha Auto Mela 2026 floor plan, compare booth sizes and availability, and register your interest directly with the exhibitor team.",
-    keywords: "Auto Expo Floor Plan, BIEC Booth Availability, Exhibition Stall Booking, Maha Auto Mela Booths",
+    keywords: "Auto Expo Floor Plan, NTR Stadium, Hyderabad Booth Availability, Exhibition Stall Booking, Maha Auto Mela Booths",
     path: "/floor-plan",
     ogImage: "https://mahaautomela.com/images/expo-floor.jpg",
   },
@@ -120,9 +120,9 @@ export const PAGE_SEO: Record<string, PageSeoConfig> = {
   contact: {
     title: "Contact Us & Directions | Maha Auto Mela 2026",
     description:
-      "Get in touch with the organiser team. Venue directions to BIEC Tumakuru Road, enquiry form, phone numbers, and support email.",
+      "Get in touch with the organiser team. Venue directions to NTR Stadium, Hyderabad Tumakuru Road, enquiry form, phone numbers, and support email.",
     keywords:
-      "BIEC Address, Auto Expo Contact Number, Bangalore Expo Venue Map, Exhibitor Helpdesk, Visitor Query Email",
+      "NTR Stadium, Hyderabad Address, Auto Expo Contact Number, Bangalore Expo Venue Map, Exhibitor Helpdesk, Visitor Query Email",
     path: "/contact",
     ogImage: "https://mahaautomela.com/images/venue.jpg",
   },
@@ -131,7 +131,7 @@ export const PAGE_SEO: Record<string, PageSeoConfig> = {
     description:
       "Register online to generate your official Visitor Pass with unique QR code. Instant image & PDF download.",
     keywords:
-      "Free Visitor Pass, Auto Expo Tickets, Online Visitor Registration, QR Entry Pass, BIEC Entry Pass 2026",
+      "Free Visitor Pass, Auto Expo Tickets, Online Visitor Registration, QR Entry Pass, NTR Stadium, Hyderabad Entry Pass 2026",
     path: "/visitor-pass",
     ogImage: "https://mahaautomela.com/images/expo-floor.jpg",
   },
@@ -174,7 +174,7 @@ export function generateEventJsonLd() {
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
     location: {
       "@type": "Place",
-      name: "Bangalore International Exhibition Centre (BIEC)",
+      name: "NTR Stadium, Hyderabad (NTR Stadium, Hyderabad)",
       address: {
         "@type": "PostalAddress",
         streetAddress: "10th Mile, Tumakuru Road, Madavara",

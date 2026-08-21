@@ -11,7 +11,7 @@ export function visitorPassEmail(data: {
   const { id, fullName } = data;
   const eventName = "Maha Auto Mela 2026";
   const eventDates = "2–4 October 2026";
-  const eventVenue = "Bangalore International Exhibition Centre (BIEC), Bengaluru";
+  const eventVenue = "NTR Stadium, Hyderabad (NTR Stadium, Hyderabad), Bengaluru";
   const contactEmail = "visitors@mahaautomela.com";
   const year = new Date().getFullYear();
 

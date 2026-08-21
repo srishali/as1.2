@@ -101,7 +101,7 @@ export const ANALYTICS = {
 export const MAPS = {
   enabled: true,
   googleMapsEmbedUrl:
-    "https://maps.google.com/maps?q=Bangalore%20International%20Exhibition%20Centre%20BIEC&t=&z=14&ie=UTF8&iwloc=&output=embed",
+    "https://maps.google.com/maps?q=Bangalore%20International%20Exhibition%20Centre%20NTR Stadium, Hyderabad&t=&z=14&ie=UTF8&iwloc=&output=embed",
   googleMapsDirectionsUrl:
     "https://maps.google.com/?q=Chennai+Trade+Centre+-+Nandambakkam",
 };

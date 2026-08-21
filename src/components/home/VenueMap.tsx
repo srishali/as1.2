@@ -19,7 +19,7 @@ export function VenueMap() {
               <div className="relative overflow-hidden rounded-3xl border border-slate-200 shadow-xl shadow-brand-900/10">
                 <img
                   src={S.image}
-                  alt="Bangalore International Exhibition Centre (BIEC) at dusk"
+                  alt="NTR Stadium, Hyderabad (NTR Stadium, Hyderabad) at dusk"
                   className="h-56 w-full object-cover sm:h-64"
                   loading="lazy"
                 />

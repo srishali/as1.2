@@ -376,7 +376,7 @@ export const SECTIONS = {
     items: [
       { icon: Store, title: "India's Tech Capital", desc: "Home to the country's deepest pool of mobility, software and EV engineering talent." },
       { icon: TrendingUp, title: "An EV & Startup Hub", desc: "More EV startups and R&D centres than any other Indian city — the natural home of innovation." },
-      { icon: MapPin, title: "World-Class Venue", desc: "BIEC offers premier, well-connected exhibition infrastructure built for global events." },
+      { icon: MapPin, title: "World-Class Venue", desc: "NTR Stadium, Hyderabad offers premier, well-connected exhibition infrastructure built for global events." },
     ],
     supportText: "Supported by leading industry associations, government bodies and global trade partners.",
   },
@@ -549,7 +549,7 @@ export const SECTIONS = {
     items: [
       { icon: Mail, label: "Email Us", value: "info@mahaautomela.com", href: "mailto:info@mahaautomela.com" },
       { icon: Phone, label: "Call Us", value: "+91 77 99 270 585", href: "tel:+917799270585" },
-      { icon: MapPin, label: "Visit Us", value: "NTR Stadium, Hyderabad", href: "https://maps.google.com/?q=Bangalore+International+Exhibition+Centre+BIEC" },
+      { icon: MapPin, label: "Visit Us", value: "NTR Stadium, Hyderabad", href: "https://maps.google.com/?q=Bangalore+International+Exhibition+Centre+NTR Stadium, Hyderabad" },
       { icon: Clock, label: "Expo Hours", value: "10 AM – 7 PM Daily", href: "" },
     ],
   },
@@ -577,8 +577,8 @@ export const SECTIONS = {
     enabled: true,
     order: 3,
     align: "center" as const,
-    mapSrc: "https://maps.google.com/maps?q=Bangalore%20International%20Exhibition%20Centre%20BIEC&t=&z=14&ie=UTF8&iwloc=&output=embed",
-    directionsUrl: "https://maps.google.com/?q=Bangalore+International+Exhibition+Centre+BIEC",
+    mapSrc: "https://maps.google.com/maps?q=Bangalore%20International%20Exhibition%20Centre%20NTR Stadium, Hyderabad&t=&z=14&ie=UTF8&iwloc=&output=embed",
+    directionsUrl: "https://maps.google.com/?q=Bangalore+International+Exhibition+Centre+NTR Stadium, Hyderabad",
     directionsLabel: "Open in Google Maps",
     registerLabel: "Register to Exhibit",
   },

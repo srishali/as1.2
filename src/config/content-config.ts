@@ -163,7 +163,7 @@ export const PAGE_HEADERS = {
   },
   floorPlan: {
     current:  "Floor Plan",
-    eyebrow:  "Exhibit at BIEC",
+    eyebrow:  "Exhibit at NTR Stadium, Hyderabad",
     image:    "/images/expo-floor.jpg",
     title:    "Find your place on the ",
     accent:   "show floor",
