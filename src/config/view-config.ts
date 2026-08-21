@@ -91,10 +91,9 @@ export const SECTIONS = {
       { icon: MapPin, value: "BIEC, Bengaluru" },
     ],
     stats: [
-      { value: "500+", label: "Exhibitors" },
-      { value: "150K+", label: "Visitors" },
-      { value: "35+", label: "Countries" },
-      { value: "50+", label: "Launches" },
+      { value: "100+", label: "Exhibitors" },
+      { value: "15K+", label: "Visitors" },
+      { value: "35+", label: "Brands" },
     ],
     bgImage: "/images/hero.jpg",
   },
@@ -104,7 +103,7 @@ export const SECTIONS = {
     order: 2,
     align: "center" as const,
     eyebrow: "The countdown has begun",
-    title: "Doors open 8–11 October 2026",
+    title: "Doors open 2–4 October 2026",
   },
 
   aboutBrief: {
@@ -112,11 +111,11 @@ export const SECTIONS = {
     order: 3,
     align: "left" as const,
     heading: {
-      eyebrow: "About the Expo",
-      title: "Four days that move an ",
+      eyebrow: "About the Mela",
+      title: "Three days that move an ",
       accent: "entire industry",
       suffix: " forward",
-      subtitle: "Now in its 8th edition, Maha Auto Mela is South Asia's most influential gathering of automakers, suppliers, startups and enthusiasts — a stage where the future of mobility is revealed.",
+      subtitle: "Now in its 1st edition, Maha Auto Mela is World's most influential gathering of automakers, suppliers, startups and enthusiasts — a stage where the future of mobility is revealed.",
       align: "left" as const,
     } as HeadingConfig,
     bullets: [
